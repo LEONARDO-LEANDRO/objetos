@@ -1,13 +1,14 @@
 //guardando informações pessoais dos clientes
-const pessoalInfo = ["Nome", "Miguel", "Idade", 18, "CPF", "989804937294873" ]
+const pessoalInfo = ["Nome", "Leonardo", "Idade", 17, "CPF", "25456847923" ]
 
 console.log(pessoalInfo)
 
-let objectpessoal = {
-    nome: "Miguel",
-    idade: 18,
-    cpf: "989804937294873",
-    email: "migs@example.com",
+let cliente = {
+    nome: "Leonardo",
+    idade: 17,
+    cpf: "25456847923",
+    email: "leonardo.souza@gmail.com",
+
 
 }
-console.log(objectpessoal)
+console.log(`O nome do cliente é ${cliente.nome}`)
